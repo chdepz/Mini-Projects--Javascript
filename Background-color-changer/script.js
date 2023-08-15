@@ -10,7 +10,7 @@ buttons.forEach((button) => {
                 #20bdff,
                 #5433ff
               )`;
-    body.style.color = "#fff"
+      body.style.color = "#fff";
     }
     if (e.target.id === "grade-grey") {
       body.style.background = `linear-gradient(
@@ -18,7 +18,7 @@ buttons.forEach((button) => {
                 #2c3e50,
                 #bdc3c7
               )`;
-              body.style.color = "#fff"
+      body.style.color = "#fff";
     }
     if (e.target.id === "celestial") {
       body.style.background = ` linear-gradient(
@@ -26,7 +26,7 @@ buttons.forEach((button) => {
                 #1d2671,
                 #c33764
               )`;
-              body.style.color = "#fff"
+      body.style.color = "#fff";
     }
     if (e.target.id === "nepal") {
       body.style.background = `linear-gradient(
@@ -34,7 +34,7 @@ buttons.forEach((button) => {
                 #2657eb,
                 #de6161
               )`;
-              body.style.color = "#fff"
+      body.style.color = "#fff";
     }
     if (e.target.id === "wiretap") {
       body.style.background = `linear-gradient(
@@ -43,7 +43,7 @@ buttons.forEach((button) => {
                 #e94057,
                 #8a2387
               )`;
-              body.style.color = "#fff"
+      body.style.color = "#fff";
     }
     if (e.target.id === "moonlit-asteroid") {
       body.style.background = `linear-gradient(
@@ -52,7 +52,7 @@ buttons.forEach((button) => {
                 #203a43,
                 #0f2027
               )`;
-              body.style.color = "#fff"
+      body.style.color = "#fff";
     }
   });
 });
