@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Body Mass Index Measurement</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="main">
+       <h1>Body Mass Index Measurement</h1> 
+       <div class="container">
+        <form action="">
+            <label for="height">Height in C.M</label> <br>
+            <input id="height" type="text" placeholder="Enter your Height"> <br>
+            <label for="weight">Weight in K.G</label><br>
+            <input type="text" placeholder="Enter your Weight" id="weight"> <br>
+            <button id="btn">Calculate</button>
+            <p id="results"></p>
+        </form>
+       </div>
+
+       <div id="weight-guide">
+        <h3>BMI Weight Guide</h3>
+        <p>Under Weight = Less than 18.6</p>
+        <p>Normal Range = 18.6 and 24.9</p>
+        <p>Overweight = Greater than 24.9</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
